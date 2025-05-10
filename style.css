@@ -1,0 +1,84 @@
+:root{
+    --cnaColor: rgb(240, 54, 74)
+}
+
+* {
+    font-family: Helvetica, Arial, sans-serif;
+}
+
+.header {
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    color: white;
+    background-color: var(--cnaColor);
+    
+    margin: -8px -8px 0px -8px;
+    padding: 0px 10px;
+}
+
+
+.header a {
+    text-decoration: none;
+    color: white;
+    position: absolute;
+    left: 20px
+}
+
+button {
+    background-color: var(--cnaColor);
+    color: white;
+    border: solid;
+    padding: 10px 20px;
+    text-align: center;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 8px;
+}
+
+.elementos {
+    display:flex;
+    align-items: center;
+    justify-content: space-evenly;
+    align-content: space-evenly;
+    gap: 20px;
+    flex-wrap: wrap;
+    padding: 20px;
+}
+
+.item {
+    background-color: var(--cnaColor);
+    border-radius: 16px;
+    padding: 10px;
+    transition: all 0.3s;
+    box-shadow: 0px;
+}
+
+.item:hover{ 
+    background-color: rgb(212, 45, 62);
+    box-shadow: 0px 0px 10px 2px rgb(115, 115, 115);
+    transition: all 0.3s;
+}
+
+
+.legenda {
+    text-align: center;
+    font-size: xx-large;
+    margin: 10px 0px 0px 0px;
+    color: white;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+img {
+    width: 213px;
+}
