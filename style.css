@@ -27,6 +27,7 @@
     left: 20px
 }
 
+
 button {
     background-color: var(--cnaColor);
     color: white;
@@ -90,7 +91,23 @@ img {
     width: 213px;
 }
 
+@media (max-width: 460px) {
+    .header a {
+        left: 10px;
+        position: fixed;
+        bottom: var(--vh, 10px);
+        left: 75%;
+        opacity: 0.7;
+    }
+    .elementos{
+        padding-bottom: 55px;
+    }
 
+    .header {
+        flex-direction: row-reverse;
+    }
+
+}
 /* For the aulas.html */
 
 .item.registro_aulas {
@@ -107,6 +124,19 @@ img {
     padding: 20px;
     gap: 10px;
 }
+
+@media (max-width: 682px) {
+    .content {
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        padding: 5px;
+    }
+    .explicação {
+        display:block;
+    }
+}
+
 .explicação h2{
     margin-bottom: -10px;
     font-size: 30px;
