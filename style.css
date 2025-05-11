@@ -251,6 +251,8 @@ button {
 img.guide {
     width: 100%;
     border-radius: 16px;
+    border-style: dotted;
+    border-width: 0.1em;
 }
 
 .inline-image {
@@ -258,4 +260,10 @@ img.guide {
     position: relative;
     top: +4px;
     width: auto;
+}
+
+/* For the teen up */
+.rounded span img{
+    border-radius: 0.3em;
+    border-color: green;
 }
