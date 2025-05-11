@@ -1,6 +1,6 @@
 function checkpassword() {
     while (true) {
-    let userPass = prompt('Digite o código de acesso')
+    let userPass = prompt('Digite o código de acesso:')
     if (userPass != null) {
         userPass = userPass.toUpperCase()
     }
@@ -20,16 +20,15 @@ function checkpassword() {
     }
 }
 }
+
 visited = localStorage.getItem('visited')
-console.log(visited)
 var password = 'CFCNA'
 var userPass ='Errada'
 
 if (visited != null) {
-    console.log('tenho um cookie')
+    console.log()
 }
 else {
-    console.log('não tenho um cookie')
     checkpassword()
 }
 
