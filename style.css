@@ -217,10 +217,13 @@ button {
     }
     .content.homework {
         align-items: center;
+        margin-left: -10px;
     }
     ol {
         padding-top: 0px;
     }
+
+    
 }
 
 /* Para estágios */
