@@ -127,7 +127,6 @@ button {
     justify-content: flex-start;
     align-content: center;
     justify-items: center;
-    gap: 10px;
     width: 80%;
 }
 
@@ -136,7 +135,7 @@ button {
     justify-content: center;
     align-items: center;
     margin-top: 10px;
-    margin-right: auto;
+    margin-right: 30px;
 }
 
 .video {
