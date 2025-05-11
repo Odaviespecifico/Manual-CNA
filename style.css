@@ -267,3 +267,11 @@ img.guide {
     border-radius: 0.3em;
     border-color: green;
 }
+
+/* Para o report card */
+video.guide{
+    width: 100%;
+    border-radius: 16px;
+    border-style: dotted;
+    border-width: 0.1em;
+}
