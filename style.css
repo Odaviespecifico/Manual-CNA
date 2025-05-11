@@ -94,14 +94,14 @@ button {
     text-decoration: none;
 }
 
-@media (max-width: 460px) {
+/* For when the smartphone is small */
+@media (max-width: 480px) {
     .header a {
         left: 10px;
-        position: fixed;
-        bottom: var(--vh, 10px);
         left: 75%;
-        opacity: 0.7;
+        opacity: 0;
     }
+
     .elementos{
         padding-bottom: 55px;
     }
@@ -111,6 +111,7 @@ button {
     }
 
 }
+
 /* For the aulas.html */
 
 .Body{
@@ -188,6 +189,35 @@ button {
 .homework li {
     font-size: 20px;
     margin-bottom: 20px;
-    max-width: 700px;
     text-align: justify;
 }
+
+.explicação.homework {
+    flex-basis: 900px;
+    flex-shrink: 0.8;
+}
+
+.content.homework {
+    align-items: flex-start;
+}
+
+@media (max-width: 811px) {
+    .explicação ol {
+    padding: 0px 30px;
+    align-items: stretch;
+    justify-content: center;
+    }
+    .item {
+        box-sizing: border-box;
+        justify-content: center;
+        margin: 10px;
+        width: 90%;
+    }
+    .content.homework {
+        align-items: center;
+    }
+    ol {
+        padding-top: 0px;
+    }
+}
+
