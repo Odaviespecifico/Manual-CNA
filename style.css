@@ -2,31 +2,19 @@
     --cnaColor: rgb(240, 54, 74)
 }
 
+/* General properties */
 * {
     font-family: Helvetica, Arial, sans-serif;
 }
 
-.header {
-    font-size: 20px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-
-    color: white;
-    background-color: var(--cnaColor);
-    
-    margin: -8px -8px 0px -8px;
-    padding: 0px 10px;
-}
-
-
-.header a {
+a {
     text-decoration: none;
     color: white;
-    position: absolute;
-    left: 20px
 }
 
+img {
+    width: 213px;
+}
 
 button {
     background-color: var(--cnaColor);
@@ -39,6 +27,30 @@ button {
     margin: 4px 2px;
     cursor: pointer;
     border-radius: 8px;
+    font-weight: bold;
+}
+
+/* Top of the page */
+.header {
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    color: white;
+    background-color: var(--cnaColor);
+    
+    margin: -8px -8px 0px -8px;
+    padding: 0px 10px;
+
+    background-image: linear-gradient(to right, var(--cnaColor),#ff0000,var(--cnaColor));
+}
+
+.header a {
+    text-decoration: none;
+    color: white;
+    position: absolute;
+    left: 20px;
 }
 
 .elementos {
@@ -82,15 +94,6 @@ button {
     text-decoration: none;
 }
 
-a {
-    text-decoration: none;
-    color: white;
-}
-
-img {
-    width: 213px;
-}
-
 @media (max-width: 460px) {
     .header a {
         left: 10px;
@@ -110,27 +113,59 @@ img {
 }
 /* For the aulas.html */
 
-.item.registro_aulas {
-    display:inline-block;
+.Body{
+    display: flex;
+    flex-direction: column;
     align-items: center;
-    margin-top: 10px;
+    justify-content: space-between;
 }
 
 .content {
     display: flex;
     flex-direction: row;
-    align-items: start;
-    justify-content: left;
     padding: 20px;
+    justify-content: flex-start;
+    align-content: center;
+    justify-items: center;
     gap: 10px;
+    width: 80%;
 }
 
-@media (max-width: 682px) {
+.item.registro_aulas {
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+    margin-right: auto;
+}
+
+.video {
+    width: 100%;
+    border-radius: 16px;
+}
+
+.item.videoBorder {
+    width: 80%;
+    display: inline;
+    border-radius: 16px;
+    align-items: center;
+    justify-content: center;
+    height: auto;
+}
+
+@media (max-width: 811px) {
     .content {
         flex-direction: column;
         align-items: center;
         justify-content: center;
         padding: 5px;
+        width: 100%;
+    }
+
+    .item.registro_aulas {
+        margin-top: 10px;
+        margin-right: 0px;
+        width: 90%;
     }
     .explicação {
         display:block;
@@ -147,4 +182,13 @@ img {
 
 .explicação p,.explicação li{
     font-size: 20px;
+}
+
+
+/* Para o do homework */
+.homework li {
+    font-size: 20px;
+    margin-bottom: 20px;
+    max-width: 700px;
+    text-align: justify;
 }
