@@ -1,4 +1,4 @@
-console.log('versão 1.4 - Ajuste de imagens no Kids e essentials')
+console.log('versão 1.4 - Added CF on the header')
 function checkpassword() {
     while (true) {
     let userPass = prompt('Digite o código de acesso:')

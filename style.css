@@ -16,6 +16,10 @@ img {
     width: 213px;
 }
 
+h1 {
+    text-align: center;
+}
+
 button {
     background-color: var(--cnaColor);
     color: white;
