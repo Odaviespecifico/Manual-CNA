@@ -1,2 +1,3 @@
 - Terminar as instruções específicas dos estágios
 - Colocar explicação de completar boletim **
+- Concertar imagem faltando no de boletim
