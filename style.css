@@ -99,7 +99,8 @@ button {
     .header a {
         left: 10px;
         left: 75%;
-        opacity: 0;
+        opacity: 0.5;
+        top: 90%;
     }
 
     .elementos{
