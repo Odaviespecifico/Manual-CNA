@@ -1,4 +1,4 @@
-console.log('versão 1.2 - adicionado o botão abaixo da página')
+console.log('versão 1.3 - Adicionado Kids')
 function checkpassword() {
     while (true) {
     let userPass = prompt('Digite o código de acesso:')

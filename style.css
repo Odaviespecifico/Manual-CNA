@@ -95,9 +95,9 @@ button {
 }
 
 /* For when the smartphone is small */
-@media (max-width: 480px) {
+@media (max-width: 500px) {
     .header a {
-        left: 10px;
+        position:fixed;
         left: 75%;
         opacity: 0.5;
         top: 90%;
@@ -161,6 +161,7 @@ button {
         justify-content: center;
         padding: 5px;
         width: 100%;
+        margin-bottom: 15px;
     }
 
     .item.registro_aulas {
@@ -224,6 +225,10 @@ button {
         padding-top: 0px;
     }
 
+    table {
+        font-size: 100%;
+    }
+
     
 }
 
@@ -278,4 +283,39 @@ video.guide{
     border-radius: 16px;
     border-style: dotted;
     border-width: 0.1em;
+}
+
+/* Para o fun */
+table {
+    margin-top: 20px;
+    font-size: 1.5em;
+}
+
+table tr {
+    background-color: var(--cnaColor);
+    color: white;
+}
+
+table td {
+    background-color: rgb(248, 116, 129);
+    padding: 10px;
+    text-align: center;
+}
+
+table th {
+    padding: 10px;
+    text-align: center;
+    font-weight: bold;
+}
+
+/* Para o Kids */
+.cronograma {
+    background-color: rgb(252, 229, 205);
+    padding: 1% 2%;
+    text-align: center;
+    font-size: 1.5em;
+    border-radius: 10px;
+    border-style: dotted;
+    border-width: 3px;
+    margin-bottom: 20px;
 }
